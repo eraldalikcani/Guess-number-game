@@ -12,7 +12,7 @@ document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
   //when no number is in the guess
   if (!guess) {
-    displayMessage('No number!');
+    displayMessage('There is no number!');
   }
   //when player wins
   else if (guess === secretNumber) {
